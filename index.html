@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="个人网站 - 展示我的简介、项目经验、技能栈与联系方式。"
+    />
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container nav">
+        <a href="#home" class="brand">ybh</a>
+        <ul class="nav-links">
+          <li><a href="#about">关于我</a></li>
+          <li><a href="#projects">项目</a></li>
+          <li><a href="#skills">技能</a></li>
+          <li><a href="#contact">联系</a></li>
+        </ul>
+        <button id="theme-toggle" class="btn btn-ghost" aria-label="切换主题">
+          切换主题
+        </button>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <div>
+          <p class="badge">个人网站</p>
+          <h1>你好，我是 <span class="highlight">ybh</span></h1>
+          <p class="lead">
+            我是一名热爱技术和创造的开发者，专注于构建清晰、实用、易维护的产品。
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">查看项目</a>
+            <a class="btn btn-secondary" href="#contact">联系我</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>快速信息</h2>
+          <ul>
+            <li>所在地：辽宁大连</li>
+            <li>方向：Web 全栈 / AI 应用</li>
+            <li>状态：摸鱼</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <h2>关于我</h2>
+        <p>
+          我擅长把复杂需求拆解成可交付的小模块，喜欢持续迭代和数据驱动的改进方式。
+          工作中重视代码质量、文档规范和团队协作。
+        </p>
+      </section>
+
+      <section id="projects" class="section container">
+        <h2>项目展示</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>学生管理系统</h3>
+            <p>基于 FastAPI 的教学管理应用，支持学生、成绩、课程与认证模块。</p>
+            <a href="#" aria-label="查看学生管理系统项目">查看详情</a>
+          </article>
+          <article class="card">
+            <h3>视觉检测训练平台</h3>
+            <p>用于头盔检测模型的训练与推理流程封装，提升实验复现效率。</p>
+            <a href="#" aria-label="查看视觉检测训练平台项目">查看详情</a>
+          </article>
+          <article class="card">
+            <h3>个人效率工具</h3>
+            <p>一个轻量任务管理工具，包含优先级、过滤和统计能力。</p>
+            <a href="#" aria-label="查看个人效率工具项目">查看详情</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section container">
+        <h2>技能栈</h2>
+        <ul class="tags">
+          <li>Python</li>
+          <li>FastAPI</li>
+          <li>JavaScript</li>
+          <li>HTML/CSS</li>
+          <li>SQL</li>
+          <li>Git</li>
+          <li>Docker</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section container">
+        <h2>联系我</h2>
+        <p>欢迎交流项目合作、技术讨论或岗位机会。</p>
+        <ul class="contact-list">
+          <li>邮箱：youremail@example.com</li>
+          <li>GitHub：github.com/yingjiangnodaisiki</li>
+          <li>微信：your_wechat_id</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© <span id="year"></span> ybh. All rights reserved.</small>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
