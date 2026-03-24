@@ -159,6 +159,14 @@ h1 {
   box-shadow: var(--shadow);
 }
 
+.hero-image {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  margin-bottom: 14px;
+  border: 1px solid var(--border);
+}
+
 .hero-card ul {
   margin: 12px 0 0;
   padding-left: 18px;
